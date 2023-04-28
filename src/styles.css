@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+.country-box {
+    padding: 5px;
+    margin-bottom: 12px;
+}
+
+.flag {
+    width: 40px;
+    padding: 0px;
+    margin-bottom: -5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.country {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 2rem;
+    padding: 4px;
+    margin-left: 5px;
+}
+
+p {
+    font-size: 0.8rem;
+    padding: 4px;
+    margin-bottom: 3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    height: 450px;
+    width: 500px;
+}
+
+img {
+    width: 100%;
+    align-self: center;
+}
+
+.form {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: yellow;
+}
+
+.button {
+    padding: 8px;
+}
+
+.input {
+    width: 280px;
+    padding: 8px;
+    margin-right: -5px;
+    border: solid #e2e2e2 2px; /* light grey */
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.submit {
+    width: 65px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: light;
+    padding: 10px;
+    border: solid #A7D15F 1px; /* light green */
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #A7D15F; /* light green */
+}
+
+.result-container {
+    margin: 50px;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.suggestion {
+    color: red;
+    height: 0.8rem;
+}

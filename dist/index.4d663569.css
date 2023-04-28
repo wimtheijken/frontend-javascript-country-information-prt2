@@ -1,0 +1,104 @@
+@import "https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap";
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto Condensed, sans-serif;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: Gochi Hand, cursive;
+  font-size: 3rem;
+}
+
+.country-box {
+  margin-bottom: 12px;
+  padding: 5px;
+}
+
+.flag {
+  width: 40px;
+  margin-bottom: -5px;
+  padding: 0;
+  box-shadow: 0 0 4px #0003;
+}
+
+.country {
+  margin-left: 5px;
+  padding: 4px;
+  font-family: Gochi Hand, cursive;
+  font-size: 2rem;
+}
+
+p {
+  margin-bottom: 3px;
+  padding: 4px;
+  font-size: .8rem;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.image-container {
+  height: 450px;
+  width: 500px;
+}
+
+img {
+  width: 100%;
+  align-self: center;
+}
+
+.form {
+  height: 30px;
+  width: 200px;
+  background-color: #ff0;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 8px;
+}
+
+.input {
+  width: 280px;
+  border: 2px solid #e2e2e2;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin-right: -5px;
+  padding: 8px;
+}
+
+.submit {
+  width: 65px;
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: light;
+  background-color: #a7d15f;
+  border: 1px solid #a7d15f;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 10px;
+}
+
+.result-container {
+  border-radius: 8px;
+  margin: 50px;
+  padding: 18px;
+  box-shadow: 5px 8px 15px #00000026;
+}
+
+.suggestion {
+  color: red;
+  height: .8rem;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
